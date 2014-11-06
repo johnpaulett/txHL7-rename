@@ -1,22 +1,11 @@
-.. twisted-hl7 renamed to txHL7 documentation master file, created by
-   sphinx-quickstart on Thu Nov  6 16:04:26 2014.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to twisted-hl7 renamed to txHL7's documentation!
+twisted-hl7
 ========================================================
 
-Contents:
+twisted-hl7 has been renamed to txHL7, to better follow twisted's
+`Community Code <http://twistedmatrix.com/trac/wiki/CommunityCode>`_
+recommendations.
 
-.. toctree::
-   :maxdepth: 2
+New doc location: http://txhl7.readthedocs.org
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+Please rename imports from ``twistedhl7`` to ``txHL7`` and update
+and setup.py or requirements.txt references to txHL7.
